@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <!-- Personal Information -->
+    <div class="text-center mb-5">
+        <img src="/static/images/profile.png" alt="{{ person.name }}" class="rounded-circle mb-3" width="150" height="150" style="object-fit: cover;">
+        <h1>{{ person.name }}</h1>
+        <p class="text-muted">{{ person.profession }}</p>
+        <p>{{ person.description }}</p>
+
+        <!-- Social Links (GitHub and LinkedIn) -->
+        <div class="mt-3 d-flex justify-content-center gap-3">
+             <a href="mailto:{{ person.email }}" class="btn btn-outline-secondary d-flex align-items-center">
+                <i class="bi bi-envelope me-2"></i> Email
+        </a>
+            <a href="{{ person.github }}" target="_blank" class="btn btn-outline-dark d-flex align-items-center">
+                <i class="bi bi-github me-2"></i> GitHub
+            </a>
+            <a href="{{ person.linkedin }}" target="_blank" class="btn btn-outline-primary d-flex align-items-center">
+                <i class="bi bi-linkedin me-2"></i> LinkedIn
+            </a>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="mt-5">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="row">
+            {% for skill in person.skills %}
+            <div class="col-md-3 col-sm-6 mb-4 text-center">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <img src="{{ skill.icon }}" alt="{{ skill.name }}" class="img-fluid mb-2" style="height: 50px;">
+                        <h6 class="card-title">{{ skill.name }}</h6>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Education and Experience Section -->
+    <div class="row">
+        <!-- Education -->
+        <div class="col-md-6">
+            <h3 class="text-center mb-4">Education</h3>
+            <div class="timeline">
+                {% for edu in person.education %}
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ edu.year }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{ edu.title }}</h6>
+                        <p class="card-text">{{ edu.desc }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="col-md-6">
+            <h3 class="text-center mb-4">Experience</h3>
+            <div class="timeline">
+                {% for exp in person.experience %}
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ exp.year }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{ exp.title }}</h6>
+                        <p class="card-text">{{ exp.desc }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

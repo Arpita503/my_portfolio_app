@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Chat with your CSV",
+    "desc": "Built a LangChain-powered Streamlit app that lets users query CSV files using natural language with Gemini/DeepSeek integration and real-time schema detection.",
+    "image": "static/images/ChatWithYourCSV.png",
+    "category": "LLM / AI",
+    "links": {
+      "view": "https://chatwithyourcsv-hrgqc7mr6bvniv5wntkfeu.streamlit.app/",
+      "code": "https://github.com/Arpita503/Chat_with_your_CSV"
+    }
+  },
+  {
+    "name": "Indian Movie Analysis",
+    "desc": "Created an interactive Streamlit dashboard to visualize Bollywood movie trends by year and genre using Plotly. Included rating and revenue analytics.",
+    "image": "static/images/IndianMovieTrendsAnalysis.png",
+    "category": "Data Visualization",
+    "links": {
+      "view": "https://indianmovieanalysis-vel9lzqc43c4bejkxc4rl3.streamlit.app/",
+      "code": "https://github.com/Arpita503/Indian_Movie_Analysis"
+    }
+  },
+  {
+    "name": "BikeWale Web Scraper",
+    "desc": "Built a web scraping tool using BeautifulSoup and requests to extract bike specifications and prices from BikeWale. Cleaned and exported data for analysis.",
+    "image": "static/images/BikeWaleWebScraper.png",
+    "category": "Web Scraping",
+    "links": {
+      "view": "https://bikewalewebscraper-392fkbccpj8khm9d6zffwe.streamlit.app/",
+      "code": "https://github.com/Arpita503/BikeWale_Web_Scraper"
+    }
+  },
+  {
+    "name": "Virtual Voice Assistant (JARVIS)",
+    "desc": "Developed a Gemini-integrated voice assistant with speech recognition, system control, and text-to-speech capabilities for hands-free operations.",
+    "image": "static/images/VoiceAssistant.png",
+    "category": "AI / Automation",
+    "links": {
+      "view": "https://www.linkedin.com/feed/update/urn:li:activity:7296583300276441088/",
+      "code": "https://github.com/Arpita503/Virtual_Voice_Assistant"
+    }
+  }
+]

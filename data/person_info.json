@@ -1,0 +1,87 @@
+{
+    "name": "Arpita Verma",
+    "profession": "B.Tech final-year student specializing in Computer Science (AI & ML)",
+    "description": "I have a solid foundation in Data Science, Data Analysis, Artificial Intelligence and Machine Learning.",
+    "github": "https://github.com/Arpita503",
+    "linkedin": "https://www.linkedin.com/in/arpita-verma-8b2760251",
+     "email" : "varpita264@gmail.com",
+
+    "skills": [
+        {"name": "Python", "icon": "https://img.icons8.com/color/48/000000/python.png"},
+        {"name": "Java", "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"},
+        {"name": "SQL", "icon": "https://img.icons8.com/ios-filled/50/000000/sql.png"},
+        {"name": "HTML", "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"},
+        {"name": "NumPy", "icon": "https://img.icons8.com/color/48/000000/numpy.png"},
+        {"name": "Pandas", "icon": "https://img.icons8.com/color/48/000000/pandas.png"},
+        {"name": "Scikit-learn", "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"},
+        {"name": "TensorFlow", "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"},
+        {"name": "LangChain", "icon": "https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/images/favicon.ico"},
+        {"name": "Flask", "icon": "https://img.icons8.com/ios-filled/50/000000/flask.png"},
+        {"name": "Beautiful Soup", "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Beautiful_Soup_Logo.png"},
+        {"name": "Matplotlib", "icon": "https://matplotlib.org/_static/images/logo2.svg"},
+        {"name": "Seaborn", "icon": "https://seaborn.pydata.org/_static/logo-wide-lightbg.svg"},
+        {"name": "Plotly", "icon": "https://images.plot.ly/logo/new-branding/plotly-logomark.png"},
+        {"name": "Streamlit", "icon": "https://images.seeklogo.com/logo-png/44/1/streamlit-logo-png_seeklogo-441815.png"},
+        {"name": "MySQL", "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"},
+        {"name": "Google Colab", "icon": "https://colab.research.google.com/img/colab_favicon_256px.png"},
+        {"name": "Jupyter Notebook", "icon": "https://images.seeklogo.com/logo-png/35/1/jupyter-logo-png_seeklogo-354673.png"},
+        {"name": "Git", "icon": "https://img.icons8.com/color/48/000000/git.png"},
+        {"name": "VS Code", "icon": "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"},
+        {"name": "Microsoft Excel", "icon": "https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png"}
+        ],
+
+    "skills": [
+        {"name": "Python", "icon": "https://img.icons8.com/color/48/000000/python.png"},
+        {"name": "Java", "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"},
+        {"name": "SQL", "icon": "https://img.icons8.com/ios-filled/50/000000/sql.png"},
+        {"name": "HTML", "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"},
+        {"name": "NumPy", "icon": "https://img.icons8.com/color/48/000000/numpy.png"},
+        {"name": "Pandas", "icon": "https://img.icons8.com/color/48/000000/pandas.png"},
+        {"name": "Scikit-learn", "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"},
+        {"name": "TensorFlow", "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"},
+        {"name": "LangChain", "icon": "https://cdn.worldvectorlogo.com/logos/langchain-1.svg"},
+        {"name": "Flask", "icon": "https://img.icons8.com/ios-filled/50/000000/flask.png"},
+        {"name": "Matplotlib", "icon": "https://matplotlib.org/_static/images/logo2.svg"},
+        {"name": "Seaborn", "icon": "https://seaborn.pydata.org/_static/logo-wide-lightbg.svg"},
+        {"name": "Plotly", "icon": "https://images.plot.ly/logo/new-branding/plotly-logomark.png"},
+        {"name": "Streamlit", "icon": "https://images.seeklogo.com/logo-png/44/1/streamlit-logo-png_seeklogo-441815.png"},
+        {"name": "MySQL", "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"},
+        {"name": "Google Colab", "icon": "https://colab.research.google.com/img/colab_favicon_256px.png"},
+        {"name": "Jupyter Notebook", "icon": "https://images.seeklogo.com/logo-png/35/1/jupyter-logo-png_seeklogo-354673.png"},
+        {"name": "GitHub", "icon": "https://www.scaler.com/topics/images/github-logo.webp"},
+        {"name": "VS Code", "icon": "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"},
+        {"name": "Microsoft Excel", "icon": "https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png"}
+        ],
+            "education": [
+        {
+            "year": "2022 - 2026",
+            "title": "B.Tech in Computer Science and Engineering (AI & ML)",
+            "desc": "MIT, Meerut (AKTU). Focused on Data Analysis, Machine Learning, Artificial Intelligence, and Data Science."
+        },
+        {
+            "year": "2020 - 2022",
+            "title": "Senior Secondary Education (CBSE)",
+            "desc": "BBSSM with emphasis on Physics, Chemistry, Mathematics, and Computer Science."
+        },
+        {
+            "year": "2019 - 2020",
+            "title": "Matriculation (CBSE)",
+            "desc": "De-Montfort Academy with a focus on foundational sciences and mathematics."
+        }
+        ],
+
+            "experience": [
+        {
+            "year": "2025",
+            "title": "Data Analytics Job Simulation - Deloitte (Virtual)",
+            "desc": " Gained hands-on experience with data analysis tools through simulated project."
+        },
+        {
+            "year": "2025",
+            "title": "Data Science Virtual Internship - AICTE-Eduskills",
+            "desc": " Learned data science concepts through structured online modules and project."
+        }
+    ]
+
+
+}
